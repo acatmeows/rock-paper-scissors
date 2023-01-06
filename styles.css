@@ -1,0 +1,60 @@
+html, body {
+    margin: 0; 
+    padding: 0;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header {
+    font-size: 35px;
+    height: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player-container, .metrics-container, .battle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.button {
+    font-size: 40px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(219, 161, 161);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+.button:hover {
+    background-color: rgb(219, 127, 127);
+}
+.player-prompt, .battle-prompt {
+    text-align: center;
+}
+.choice {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+}
+#vs, #results, #equals {
+    font-size: 25px;
+}
+#results {
+    text-align: center;
+}
+#reset-button {
+    font-size: 18px;
+    background-color: white;
+    left: 50%;
+}
+.reset-container {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: large;
+  }
